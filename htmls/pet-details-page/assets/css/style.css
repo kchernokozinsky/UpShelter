@@ -45,21 +45,7 @@ header
     color: gray;
 }
 
-/*#stretcher {*/
-/*    position:absolute;*/
-/*    right:0;*/
-/*    bottom:0;*/
-/*    z-index:0;*/
-/*    width:35%;*/
-/*    background-color:#fff;*/
-/*    color:inherit;*/
-/*}*/
-/*html>body #stretcher {*/
-/*    top:0;*/
-/*}*/
-/** html #stretcher {*/
-/*    height:1000em;*/
-/*}*/
+
 
 #middle {
     position:relative;
@@ -91,23 +77,15 @@ header
     /*border: 2px solid #9799a7;*/
     padding:1.5em 2%;
 }
-/** html #content {*/
-/*    width:60.8%;*/
-/*}*/
-/**+html #content {*/
-/*    width:60.8%;*/
-/*}*/
+
 
 #content {
     position:relative;
     z-index:1;
-    /*float:left;*/
-    /*border: 2px solid #9799a7;*/
     padding:1.5em 2%;
     left: 3%;
     background-color:#fff;
     color:inherit;
-    /*width: 40%;*/
     height: 500px;
 }
 
