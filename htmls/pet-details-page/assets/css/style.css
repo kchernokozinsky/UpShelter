@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,16 +7,14 @@ html {
     height: 100%;
 }
 
-body
-{
+body {
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     /*height: 100vh;*/
 }
 
-header
-{
+header {
     width: 100%;
     background: url('../images/a.png');
     height: 135px;
@@ -25,8 +23,7 @@ header
     margin-right: auto
 }
 
-.header__logo
-{
+.header__logo {
     text-transform: uppercase;
     padding-top: 70px;
     font-size: 40pt;
@@ -38,6 +35,7 @@ header
     flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     padding: 20px;
 }
+
 .footer {
     flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     padding: 20px;
@@ -46,18 +44,17 @@ header
 }
 
 
-
 #middle {
-    position:relative;
-    z-index:4;
-    overflow:hidden;
-    width:100%;
+    position: relative;
+    z-index: 4;
+    overflow: hidden;
+    width: 100%;
     /*min-width:640px;*/
     /*max-width: 1640px;*/
-    background-color:#fff;
+    background-color: #fff;
     margin: 0 auto;
     padding-top: 50px;
-    color:inherit;
+    color: inherit;
     flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     display: grid;
     /*grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));*/
@@ -65,45 +62,48 @@ header
     grid-gap: 1rem;
 
 }
-*html #middle {
-    overflow:visible;
-    height:100%;
+
+* html #middle {
+    overflow: visible;
+    height: 100%;
 }
 
 #photo {
-    position:relative;
-    z-index:1;
+    position: relative;
+    z-index: 1;
     /*float:left;*/
     /*border: 2px solid #9799a7;*/
-    padding:1.5em 2%;
+    padding: 1.5em 2%;
 }
 
 
 #content {
-    position:relative;
-    z-index:1;
-    padding:1.5em 2%;
+    position: relative;
+    z-index: 1;
+    padding: 1.5em 2%;
     left: 3%;
-    background-color:#fff;
-    color:inherit;
+    background-color: #fff;
+    color: inherit;
     height: 500px;
 }
 
 #text {
 
-    position:relative;
-    z-index:1;
-    background-color:#fff;
-    color:inherit;
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    color: inherit;
 }
 
-h1{
+h1 {
     font-size: 50pt;
 }
-ul{
+
+ul {
     font-size: 30pt;
 }
-.description{
+
+.description {
     font-size: 15pt;
 }
 
@@ -127,7 +127,9 @@ ul{
     width: 323px;
 }
 
-.button:hover {background-color: #706bdf}
+.button:hover {
+    background-color: #706bdf
+}
 
 .button:active {
     background-color: #706bdf;
@@ -135,8 +137,7 @@ ul{
     transform: translateY(4px);
 }
 
-.image
-{
+.image {
     width: 100%;
     height: 100%;
     object-fit: cover;
