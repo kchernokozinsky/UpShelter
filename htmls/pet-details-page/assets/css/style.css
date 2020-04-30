@@ -28,7 +28,7 @@ header
     margin-right: auto
 }
 
-.header__logo
+.header__title
 {
     text-transform: uppercase;
     padding-top: 70px;
@@ -99,6 +99,23 @@ header
     color: inherit;
 }
 
+@media all and (max-width: 1400px) {
+
+    .button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #content{
+        height: auto;
+    }
+
+    #text{
+        height: auto;
+    }
+}
+
 
 h1{
     font-size: 50pt;
@@ -131,22 +148,7 @@ ul{
     width: 323px;
 }
 
-@media all and (max-width: 1400px) {
 
-    .button{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #content{
-        height: auto;
-    }
-
-    #text{
-        height: auto;
-    }
-}
 
 .button:hover {background-color: #706bdf}
 

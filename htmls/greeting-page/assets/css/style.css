@@ -253,7 +253,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .example__item {
-    width: 300px;
+    text-align: center;
+    width: auto;
     position: relative;
     margin-right: 20px;
     background-color: #7b77c9;
