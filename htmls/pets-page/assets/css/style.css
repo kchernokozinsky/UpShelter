@@ -76,9 +76,10 @@ header {
 }
 
 .filters__text {
+
     margin-top: 25px;
     font-size: 15pt;
-    color: #ffffff;
+    color: #464b4f;
 }
 
 .filters p {
@@ -94,21 +95,27 @@ header {
 }
 
 .dropdown #dropdownShelter {
+    color: #7c7c7c;
     background-color: #ffffff;
     margin-bottom: 5px;
 }
 
 .dropdown #dropdownType {
+    color: #7c7c7c;
     background-color: #ffffff;
     margin-bottom: 5px;
 }
 
+
 .dropdown #dropdownSex {
+    color: #7c7c7c;
     background-color: #ffffff;
     margin-bottom: 5px;
 }
 
 .dropdown #dropdownAge {
+    color: #7c7c7c;
+
     background-color: #ffffff;
     margin-bottom: 5px;
 }
