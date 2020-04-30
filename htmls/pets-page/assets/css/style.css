@@ -49,8 +49,43 @@ header {
     max-width: 100%;
     display: grid;
     grid-template-columns: 500px 3fr;
-
 }
+
+/*@media (max-width: 768px) {*/
+/*.main-contain {*/
+/*    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+/*    grid-gap: 1rem;}*/
+/*.filters {*/
+/*    margin-left: 15%;*/
+/*    margin-right: 50px;*/
+/*    min-width: 300px;*/
+/*    max-width: 400px;*/
+/*}*/
+/*.main-contain .btn.btn-secondary{*/
+/*    margin-left: 38%;*/
+/*}*/
+/*}*/
+
+/*@media only screen and (max-width: 576px) {*/
+/*    .main-contain {*/
+/*        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
+/*        grid-gap: 1rem;*/
+/*    }*/
+/*    .main-contain img {*/
+/*        margin-left: -2%;*/
+/*    }*/
+/*    .filters{*/
+/*        margin-left: 10%;*/
+/*        min-width: 300px;*/
+/*        max-width: 400px;*/
+/*    }*/
+/*    .row {*/
+/*        margin-left: 15%;*/
+/*    }*/
+/*    .main-contain .btn.btn-secondary{*/
+/*        margin-left: 30%;*/
+/*    }*/
+/*}*/
 
 
 .row {
@@ -73,13 +108,14 @@ header {
     margin-bottom: 100px;
 }
 
+
 .filters h {
-    position: static;
+    /*position: static;*/
+    position: relative;
     margin-top: 20px;
 }
 
 .filters__text {
-
     margin-top: 25px;
     font-size: 15pt;
     color: #464b4f;
@@ -139,8 +175,7 @@ header {
 
 .goods__content {
     position: relative;
-
-
+    min-width: 250px;
 }
 
 .product {
@@ -202,7 +237,6 @@ header {
 
 .example__img {
     background: linear-gradient(to bottom, #ff6978, #ff6978, #ef709d);
-
     transition: transform .2s linear;
 }
 
@@ -220,7 +254,6 @@ header {
 .button {
     position: relative;
     text-align: center;
-    padding: 0px 25px;
     font-size: 30pt;
     cursor: pointer;
     text-decoration: none;
@@ -230,9 +263,11 @@ header {
     border: none;
     border-radius: 5px;
     box-shadow: 0 9px #999;
-    margin-left: 50%;
     height: 60px;
     width: 210px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 
@@ -265,4 +300,42 @@ header {
 .footer__text {
     font-size: 14pt;
     color: #7c7c7c;
+}
+
+@media all and (max-width: 710px) {
+    .main__content {
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: 1rem;
+    }
+    .goods__content {
+        min-width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .row {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .filters {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .example__item {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .product {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
