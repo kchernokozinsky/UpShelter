@@ -100,6 +100,7 @@ header {
 
 .dropdown #dropdownShelter {
     max-width: 200px;
+    min-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -110,6 +111,7 @@ header {
 
 .dropdown #dropdownType {
     max-width: 200px;
+    min-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -121,6 +123,7 @@ header {
 
 .dropdown #dropdownSex {
     max-width: 200px;
+    min-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -131,6 +134,7 @@ header {
 
 .dropdown #dropdownAge {
     max-width: 200px;
+    min-width: 200px;
     white-space: nowrap;
     overflow: hidden;
     color: #7c7c7c;
