@@ -2,20 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>page3</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/style2.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic,cyrillic-ext"
           rel="stylesheet">
-
+    <title>UpShelter</title>
 </head>
 <body>
 <header>
-    <div class="header__title"><p>upshelter</p></div>
+    <div class="header__title" style="cursor: pointer"><p>UpShelter</p></div>
 </header>
-<div id="middle">
+<div id="load" style="text-align:center; display: block;color: #888a8b; font-size: 50px; margin-top: 100px">Loading...</div>
+<div id="middle" style="display: none">
     <section id="photo">
         <div class="image">
-            <img src="assets/images/pet.jpg" height="700" alt="">
+
         </div>
     </section>
 
@@ -24,10 +25,10 @@
 
             <h1 class="pet__name">Name of the pet</h1>
 
-               <div class="char_container">
-                   <div class="square"></div>
-                   <p class="char__text">Type of the animal</p>
-               </div>
+            <div class="char_container">
+                <div class="square"></div>
+                <p class="char__text">Type of the animal</p>
+            </div>
             <div class="char_container">
                 <div class="square"></div>
                 <p class="char__text">Sex</p>
@@ -54,13 +55,15 @@
     </aside>
 </div>
 <footer class="footer">
-        <div class="footer__container">
+    <div class="footer__container">
 
-                <p class="footer__text">Made With By UpShelter</p>
-                <p class="footer__text">Copyright © 2020. All Rights Reserved.</p>
+        <p class="footer__text">Made With By UpShelter</p>
+        <p class="footer__text">Copyright © 2020. All Rights Reserved.</p>
 
-        </div>
+    </div>
 
 </footer>
 </body>
+<script src="jquery.min.js"></script>
+<script src="pet.js"></script>
 </html>
