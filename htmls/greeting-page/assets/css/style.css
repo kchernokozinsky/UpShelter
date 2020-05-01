@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 
     border: 3px solid #fff;
 
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 .section__title {
     width: 100%;
     display: inline;
-    font-size: 80pt;
+    font-size: 60pt;
     color: #464b4f;
     margin-top: 25px;
     text-transform: uppercase;
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .example__title {
     position: relative;
-    font-size: 80pt;
+    font-size: 60pt;
     color: #ffffff;
     text-transform: uppercase;
 }

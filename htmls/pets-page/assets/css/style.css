@@ -225,7 +225,7 @@ header {
 .button {
     position: relative;
     text-align: center;
-    font-size: 30pt;
+    font-size: 25pt;
     cursor: pointer;
     text-decoration: none;
     outline: none;
@@ -234,8 +234,8 @@ header {
     border: none;
     border-radius: 5px;
     box-shadow: 0 9px #999;
-    height: 60px;
-    width: 210px;
+    height: 70px;
+    width: 190px;
     display: block;
     margin-right: auto;
     margin-left: auto;
