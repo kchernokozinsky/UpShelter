@@ -51,41 +51,6 @@ header {
     grid-template-columns: 500px 3fr;
 }
 
-/*@media (max-width: 768px) {*/
-/*.main-contain {*/
-/*    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
-/*    grid-gap: 1rem;}*/
-/*.filters {*/
-/*    margin-left: 15%;*/
-/*    margin-right: 50px;*/
-/*    min-width: 300px;*/
-/*    max-width: 400px;*/
-/*}*/
-/*.main-contain .btn.btn-secondary{*/
-/*    margin-left: 38%;*/
-/*}*/
-/*}*/
-
-/*@media only screen and (max-width: 576px) {*/
-/*    .main-contain {*/
-/*        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));*/
-/*        grid-gap: 1rem;*/
-/*    }*/
-/*    .main-contain img {*/
-/*        margin-left: -2%;*/
-/*    }*/
-/*    .filters{*/
-/*        margin-left: 10%;*/
-/*        min-width: 300px;*/
-/*        max-width: 400px;*/
-/*    }*/
-/*    .row {*/
-/*        margin-left: 15%;*/
-/*    }*/
-/*    .main-contain .btn.btn-secondary{*/
-/*        margin-left: 30%;*/
-/*    }*/
-/*}*/
 
 
 .row {
@@ -165,7 +130,9 @@ header {
 }
 
 .dropdown #dropdownAge {
-    width: 200px;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
     color: #7c7c7c;
 
     background-color: #ffffff;
