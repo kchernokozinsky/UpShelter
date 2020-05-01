@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    const URL = "chat.php"
+    const URL = "db-handling.php"
     var dogs = []
     var names = []
     var shelters = []
@@ -69,7 +69,7 @@ $( document ).ready(function() {
 
                 document.getElementsByClassName("row")[0].append(div);
                 document.getElementById(dogs[i].url).addEventListener("click", function (event) {
-                    window.open("pet.html?id=" + event.target.className);
+                    window.open("pet-details-page.html?id=" + event.target.className);
                 })
             }
             document.getElementsByClassName("load")[0].style.display = "none"
@@ -292,7 +292,7 @@ $( document ).ready(function() {
         div1.style.display = "none"
         document.getElementsByClassName("row")[0].append(div1);
         document.getElementsByClassName("header__title")[0].addEventListener("click", function () {
-            window.location.href = "index.html"
+            window.location.href = "greeting-page.html"
         })
     }
 

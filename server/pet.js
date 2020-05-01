@@ -1,8 +1,8 @@
 $( document ).ready(function() {
     document.getElementsByClassName("header__title")[0].addEventListener("click", function () {
-        window.location.href = "index.html"
+        window.location.href = "greeting-page.html"
     })
-    const URL = "chat.php"
+    const URL = "db-handling.php"
     var id = window.location.search.replace("?id=","")
     function api(type, data, callback)
     {
