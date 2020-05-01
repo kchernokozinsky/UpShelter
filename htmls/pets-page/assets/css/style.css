@@ -175,7 +175,7 @@ header {
 
 .goods__content {
     position: relative;
-    min-width: 250px;
+    min-width: 300px;
 }
 
 .product {
@@ -220,7 +220,7 @@ header {
 }
 
 .example__item {
-    max-width: 200px;
+    max-width: 250px;
     position: relative;
     margin-right: 20px;
     background-color: #7b77c9;
@@ -302,7 +302,7 @@ header {
     color: #7c7c7c;
 }
 
-@media all and (max-width: 710px) {
+@media all and (max-width: 890px) {
     .main__content {
         width: 100%;
         grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
