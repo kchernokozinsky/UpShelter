@@ -66,6 +66,7 @@ header
 }
 
 #photo {
+    filter: drop-shadow(0 0px 10px #21203f);
     position:relative;
     z-index:1;
     display: block;
