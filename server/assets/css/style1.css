@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-width: 360px;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+    background: url("../images/background.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    background: url("../images/head.png");
+    height: 135px;
+    filter: drop-shadow(0 0px 10px #21203f);
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 70px;
+    font-size: 40pt;
+    margin-left: 5%;
+    color: #ffffff;
+}
+
+.content {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+}
+
+
+.main__content {
+    margin-top: 50px;
+    width: 90%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 500px 3fr;
+}
+
+
+
+.row {
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.filters {
+    margin-left: 25%;
+    filter: drop-shadow(0 5px 5px #21203f);
+    width: 100%;
+    max-width: 250px;
+    margin-right: 65px;
+    border-radius: 0;
+    background-color: #918ed2;
+
+    height: 450px;
+    margin-bottom: 100px;
+}
+
+
+.filters h {
+    /*position: static;*/
+    position: relative;
+    margin-top: 20px;
+}
+
+.filters__text {
+    margin-top: 25px;
+    font-size: 15pt;
+    color: #464b4f;
+}
+
+.filters p {
+    margin-left: 10%;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.dropdown {
+    margin-left: 10%;
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.dropdown #dropdownShelter {
+    max-width: 200px;
+    min-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #7c7c7c;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.dropdown #dropdownType {
+    max-width: 200px;
+    min-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #7c7c7c;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+
+.dropdown #dropdownSex {
+    max-width: 200px;
+    min-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #7c7c7c;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.dropdown #dropdownAge {
+    max-width: 200px;
+    min-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #7c7c7c;
+
+    background-color: #ffffff;
+    margin-bottom: 5px;
+}
+
+
+.goods__content {
+    position: relative;
+    min-width: 300px;
+}
+
+.product {
+
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+.pet__name {
+    font-size: 14pt;
+    color: #7c7c7c;
+}
+
+/*Images*/
+
+
+.example__section__content {
+    width: 100%;
+    max-width: 49%;
+    margin: 0 auto 40px;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.example__title {
+    font-size: 80pt;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.example {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.example__img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.example__item {
+    max-width: 250px;
+    position: relative;
+    margin-right: 20px;
+    background-color: #7b77c9;
+}
+
+.example__item:hover .example__img {
+    transform: translate3d(-10px, -10px, 0);
+}
+
+.example__item:hover .example__img img {
+    opacity: .7;
+}
+
+
+.example__img {
+    background: linear-gradient(to bottom, #ff6978, #ff6978, #ef709d);
+    transition: transform .2s linear;
+}
+
+.example__img img {
+    display: block;
+    transition: opacity .1s linear;
+}
+
+.example__item:hover .item__name {
+    opacity: 1;
+
+}
+
+/*Button*/
+.button {
+    position: relative;
+    text-align: center;
+    font-size: 25pt;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #7b77c9;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #999;
+    height: 70px;
+    width: 190px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.button:hover {
+    background-color: #706bdf
+}
+
+.button:active {
+    background-color: #706bdf;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+@media (max-width: 768px) {
+    .main-contain {
+        display: table-row;
+    }
+    .filters {
+        margin-left: 15%;
+        margin-right: 50px;
+        min-width: 300px;
+        max-width: 400px;
+    }
+    .main-contain .btn.btn-secondary{
+        margin-left: 38%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .main-contain {
+        display: table-row;
+    }
+    .main-contain img {
+        margin-left: -2%;
+    }
+    .filters{
+        margin-left: 10%;
+        min-width: 300px;
+        max-width: 400px;
+    }
+    .row {
+        margin-left: 15%;
+    }
+    .main-contain .btn.btn-secondary{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    header {
+        min-width: 375px;
+    }
+}
+
+
+/*Footer*/
+.footer {
+    margin-top: 200px;
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+
+.footer__container {
+    width: 100%;
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+.footer__text {
+    font-size: 14pt;
+    color: #7c7c7c;
+}
+
+@media all and (max-width: 890px) {
+    .main__content {
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-gap: 1rem;
+    }
+    .goods__content {
+        min-width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .row {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .filters {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .example__item {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .product {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

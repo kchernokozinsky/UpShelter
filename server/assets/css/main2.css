@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-width: 360px;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex ;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    background: url('../images/3.png');
+    height: 400px;
+}
+
+.header__logo {
+    text-transform: uppercase;
+    padding-top: 323px;
+    font-size: 40pt;
+    margin-left: 5%;
+    color: #ffffff;
+}
+
+.content {
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+}
+
+.footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    padding: 20px;
+    text-align: center;
+    color: gray;
+}
+
+
+.main-contain {
+    /*position: relative;*/
+    max-width: 100%;
+    min-width: 375px;
+    min-height: 500px;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    background-color: #fff;
+}
+
+.main-contain img {
+    padding: 10px;
+    margin-left: 35px;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.main-contain .btn.btn-secondary{
+    width: 100px;
+    margin-left: 22%;
+    margin-top: 30px;
+    background-color: #a34fb2;
+}
+
+.row {
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 5%;
+}
+
+.filters {
+    margin-left: 35px;
+    margin-right: 65px;
+    margin-top: 4.5%;
+    min-width: 300px;
+    border-radius: 0;
+    background-color: #4b1db2;
+    height: fit-content;
+}
+.filters h{
+    position: absolute;
+    margin-top: -20px;
+}
+.filters p {
+    margin-left: 10%;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.dropdown {
+    margin-top: 0;
+    margin-left: 10%;
+    width: 200px;
+}
+
+.dropdown #dropdownMenuButton {
+    width: 200px;
+    background-color: #a34fb2;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.dropdown #dropdownMenuButton1{
+    width: 200px;
+    background-color: #a34fb2;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.dropdown #dropdownMenuButton2 {
+    width: 200px;
+    background-color: #a34fb2;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.dropdown #dropdownMenuButton3 {
+    width: 200px;
+    background-color: #a34fb2;
+    margin-left: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+.goods-content {
+    position: relative;
+    margin: auto;
+    min-width: 450px;
+    background-color: white;
+}
+
+.product {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .main-contain {
+        display: table-row;
+    }
+    .filters {
+        margin-left: 15%;
+        margin-right: 50px;
+        min-width: 300px;
+        max-width: 400px;
+    }
+    .main-contain .btn.btn-secondary{
+        margin-left: 38%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .main-contain {
+        display: table-row;
+    }
+    .main-contain img {
+        margin-left: -2%;
+    }
+    .filters{
+        margin-left: 10%;
+        min-width: 300px;
+        max-width: 400px;
+    }
+    .row {
+        margin-left: 15%;
+    }
+    .main-contain .btn.btn-secondary{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    header {
+        min-width: 375px;
+    }
+}
