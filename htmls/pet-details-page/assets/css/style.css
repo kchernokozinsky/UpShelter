@@ -21,21 +21,24 @@ body
 header
 {
     width: 100%;
-    background: url('../images/a.png');
+    background: url('../images/head.png');
     height: 135px;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    filter: drop-shadow(0 0px 10px #21203f);
 }
 
 .header__title
 {
     text-transform: uppercase;
+    font-weight: bold;
     padding-top: 70px;
     font-size: 40pt;
     margin-left: 5%;
     color: #ffffff;
 }
+
 
 .content {
     flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
@@ -84,6 +87,28 @@ header
     height: 700px;
 }
 
+.square {
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 0;
+    background-color: #918ed2;
+    height: 20px;
+}
+
+/*char*/
+
+.char__text{
+    font-weight: bold;
+    font-size: 15pt;
+    color: #464b4f;
+}
+
+.char_container{
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 10px;
+}
+
 #text {
 
     position: relative;
@@ -123,10 +148,17 @@ h1{
 ul{
     font-size: 30pt;
 }
+
+/*Description*/
 .description{
     font-size: 15pt;
     margin-top: 40px;
     color: #464b4f;
+    /*background-color: #918ed2;*/
+}
+
+.pet__name{
+        margin-bottom: 20px;
 }
 
 .button {
